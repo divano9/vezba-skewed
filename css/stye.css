@@ -1,0 +1,16 @@
+/*global*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 82pt;
+    color: white;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 60pt;
+    font-weight: 100;
+}
