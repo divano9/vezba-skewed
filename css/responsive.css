@@ -8,15 +8,21 @@
 }
 
 @media(min-width:768px){
-
-    
+    .skewed h2,
+    .skewed h2 .warning{
+        font-size: 62pt;
+    }
+   
 }
 
 
 
 
 @media(min-width:992px){
-
+    .skewed h2,
+    .skewed h2 .warning{
+        font-size: 72pt;
+    }
  
 }
 
@@ -24,6 +30,20 @@
 
     .container{
         max-width: 1170px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .navbar-light li a{
+        font-size: 14pt;
+    }
+
+    .skewed h2,
+    .skewed h2 .warning{
+        font-size: 82pt;
     }
 
 }
