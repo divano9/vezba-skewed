@@ -2,7 +2,11 @@
 
 @media(min-width:576px){
 
-    
+   
+
+    .video iframe{
+        height: 200px;
+    }
 
 
 }
@@ -12,6 +16,24 @@
     .skewed h2 .warning{
         font-size: 62pt;
     }
+
+    .about-us{
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+
+    h2{
+        font-size: 60pt;
+    }
+
+    
+    .video iframe{
+        height: 300px;
+    }
+
+    .team .lead{
+        margin-bottom: 75px;
+    }
    
 }
 
@@ -19,10 +41,26 @@
 
 
 @media(min-width:992px){
+    
     .skewed h2,
     .skewed h2 .warning{
         font-size: 72pt;
     }
+
+    .about-us{
+        padding-top: 170px;
+        
+    }
+
+    .video iframe{
+        width: 98%;
+        height: 400px;
+    }
+
+    .team .lead{
+        margin-bottom: 90px;
+    }
+
  
 }
 
@@ -44,6 +82,12 @@
     .skewed h2,
     .skewed h2 .warning{
         font-size: 82pt;
+    }
+
+ 
+
+    .team .lead{
+        margin-bottom: 90px;
     }
 
 }

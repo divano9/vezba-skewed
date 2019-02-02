@@ -2,14 +2,25 @@
 
 *{
     font-family: 'Roboto', sans-serif;
-    font-size: 16pt;
+    font-size: 1rem;
 }
 
 
 h2{
-    font-size: 60pt;
+    font-size: 2rem;
     font-weight: 100;
+    color: #222222;
 }
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+p{
+    color: #b1b1b1;
+}
+
 
 .background-i{
     background-size: cover; 
@@ -18,6 +29,15 @@ h2{
 
 .vh{
     min-height: 100vh;
+}
+
+.vh2{
+    min-height: 90vh;
+}
+
+.vh3{
+    height: 100vh;
+    overflow: hidden;
 }
 
 img{
@@ -29,10 +49,36 @@ figure{
     margin: 0;
 }
 
+.cover{
+    background-size: cover;
+    background-position: top center;
+}
+
+
+
 /*bootstrap*/
 
 .warning{
     color: #f7cc4b;
+}
+
+.bg-warning{
+    background-color: #f7cc4b !important;
+}
+
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.btn-outline-warning{
+    border-color: #f7cc4b;
+    color: #f7cc4b;
+}
+
+.btn-outline-warning:hover{
+    background-color: #f7cc4b;
+    color: white;
 }
 
 /*navigation*/
@@ -46,6 +92,7 @@ header{
     position: fixed;
     opacity: 35;
     width: 100%;
+    z-index: 50;
 }
 
 .navbar-light{
@@ -81,10 +128,13 @@ header{
 
 /*section skewed*/
 
+.skewed{
+    position: relative;
+}
 
 .skewed h2,
 .skewed h2 .warning{
-    font-size: 48pt;
+    font-size: 2rem;
 }
 
 .skewed:after{
@@ -100,4 +150,80 @@ header{
     
 } 
 
+/*section about-us*/
+
+.about-us{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+/*section video*/
+
+.video{
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    
+}
+
+.video h2{
+    color: white;
+}
+
+.video p{
+    color: #4d442a;
+}
+
+iframe{
+    width: 70%;
+    
+}
+
+.video:before{
+    content: '';
+    width: 100%;
+    height: 80px;
+    display: block;
+    background: url('assets/full-left-top-right.png') no-repeat top left;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+} 
+
+.video:after{
+    content: '';
+    width: 100%;
+    height: 80px;
+    display: block;
+    background: url('assets/full-right-bottom-left.png') no-repeat bottom right;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+} 
+
+/*section team*/
+
+.team{
+    padding-top: 50px;
+}
+
+.team figure{
+    width: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.team figure img{
+    width: 100%;
+}
+
+.team .lead{
+    margin-bottom: 60px;
+}
 
